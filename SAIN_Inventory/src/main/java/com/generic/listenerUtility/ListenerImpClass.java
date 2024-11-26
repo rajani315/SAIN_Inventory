@@ -9,6 +9,7 @@ import org.testng.ISuiteListener;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
+import org.testng.Reporter;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
@@ -30,7 +31,7 @@ public class ListenerImpClass implements ITestListener, ISuiteListener {
 	/* ISuiteListener methods implementation */
 	@Override
 	public void onStart(ISuite suiteInfo) {
-		System.out.println("report configuration");
+		Reporter.log("report configuration",true);
 		// configure the report
 		String time = new Date().toString().replace(" ", "_").replace(":", "_");
 		spark = new ExtentSparkReporter("./AdvanceReport/report_"+time+".html");

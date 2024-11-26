@@ -1,6 +1,7 @@
 package com.baseTest;
 
 import org.openqa.selenium.WebDriver;
+import org.testng.Reporter;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
@@ -43,14 +44,14 @@ public class BaseClass {
 	public void configBeforeSuite() {
 
 		d.getDBConnection();
-		System.out.println("---Connected to Database---");
+		Reporter.log("---Connected to Database---",true);
 	}
 
 	@AfterSuite
 	public void configAfterSuite() throws Throwable {
 
 		d.closeDBConnection();
-		System.out.println("---Closed Database Connection---");
+		Reporter.log("---Closed Database Connection---",true);
 	}
 
 	@Parameters("browser")
@@ -62,14 +63,14 @@ public class BaseClass {
 		sdriver = driver;
 		UtilityClassObject.setDriver(driver);
 		driver = UtilityClassObject.getDriver();
-		System.out.println("---" + BROWSER + " Browser Launched---");
+		Reporter.log("---" + BROWSER + " Browser Launched---",true);
 	}
 
 	@AfterClass
 	public void configAfterClass() {
 
 		driver.quit();
-		System.out.println("---Browser Closed---");
+		Reporter.log("---Browser Closed---",true);
 	}
 
 	@Parameters({ "username", "password" })
@@ -80,7 +81,7 @@ public class BaseClass {
 
 		LoginPage l = new LoginPage(driver);
 		l.loginToApp(URL, username, password);
-		System.out.println("---Logged-in to App---");
+		Reporter.log("---Logged-in to App---",true);
 	}
 
 	@AfterMethod(groups = { "smokeTest", "regressionTest" })
@@ -88,6 +89,6 @@ public class BaseClass {
 
 		HomePage hp = new HomePage(driver);
 		hp.logoutFromApp();
-		System.out.println("---Logged-out from App---");
+		Reporter.log("---Logged-out from App---",true);
 	}
 }
