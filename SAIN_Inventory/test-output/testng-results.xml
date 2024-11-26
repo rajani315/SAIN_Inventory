@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="12" passed="5" failed="0" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-26T09:47:32 IST" name="Suite" finished-at="2024-11-26T09:48:58 IST" duration-ms="85918">
+    <groups>
+      <group name="SmokeTest">
+        <method signature="AddUserAccountTest.addUserAccount()[pri:0, instance:com.accountsTest.AddUserAccountTest@5bda8e08]" name="addUserAccount" class="com.accountsTest.AddUserAccountTest"/>
+        <method signature="SearchProductTest.searchProductByCode()[pri:0, instance:com.inventoryTest.SearchProductTest@3eb738bb]" name="searchProductByCode" class="com.inventoryTest.SearchProductTest"/>
+      </group> <!-- SmokeTest -->
+      <group name="admin">
+        <method signature="AddProductTest.addProductAndVerifyInEditTest()[pri:0, instance:com.productTest.AddProductTest@7d20d0b]" name="addProductAndVerifyInEditTest" class="com.productTest.AddProductTest"/>
+      </group> <!-- admin -->
+      <group name="RegressionTest">
+        <method signature="AddUserAccountTest.addUserAccount()[pri:0, instance:com.accountsTest.AddUserAccountTest@5bda8e08]" name="addUserAccount" class="com.accountsTest.AddUserAccountTest"/>
+        <method signature="SearchProductTest.searchProductByCode()[pri:0, instance:com.inventoryTest.SearchProductTest@3eb738bb]" name="searchProductByCode" class="com.inventoryTest.SearchProductTest"/>
+      </group> <!-- RegressionTest -->
+    </groups>
+    <test started-at="2024-11-26T09:47:32 IST" name="Test_1" finished-at="2024-11-26T09:48:32 IST" duration-ms="60347">
+      <class name="com.inventoryTest.SearchProductTest">
+        <test-method is-config="true" signature="configBeforeClass(java.lang.String)[pri:0, instance:com.inventoryTest.SearchProductTest@3eb738bb]" started-at="2024-11-26T09:47:58 IST" name="configBeforeClass" finished-at="2024-11-26T09:48:01 IST" duration-ms="2860" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeClass -->
+        <test-method is-config="true" signature="configBeforeMethod(java.lang.String,java.lang.String)[pri:0, instance:com.inventoryTest.SearchProductTest@3eb738bb]" started-at="2024-11-26T09:48:01 IST" name="configBeforeMethod" finished-at="2024-11-26T09:48:13 IST" duration-ms="11411" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeMethod -->
+        <test-method signature="searchProductByCode()[pri:0, instance:com.inventoryTest.SearchProductTest@3eb738bb]" started-at="2024-11-26T09:48:13 IST" name="searchProductByCode" finished-at="2024-11-26T09:48:15 IST" duration-ms="2109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductByCode -->
+        <test-method is-config="true" signature="configAfterMethod()[pri:0, instance:com.inventoryTest.SearchProductTest@3eb738bb]" started-at="2024-11-26T09:48:15 IST" name="configAfterMethod" finished-at="2024-11-26T09:48:16 IST" duration-ms="1718" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterMethod -->
+        <test-method is-config="true" signature="configAfterClass()[pri:0, instance:com.inventoryTest.SearchProductTest@3eb738bb]" started-at="2024-11-26T09:48:16 IST" name="configAfterClass" finished-at="2024-11-26T09:48:17 IST" duration-ms="997" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterClass -->
+      </class> <!-- com.inventoryTest.SearchProductTest -->
+      <class name="com.accountsTest.AddUserAccountTest">
+        <test-method is-config="true" signature="configBeforeClass(java.lang.String)[pri:0, instance:com.accountsTest.AddUserAccountTest@5bda8e08]" started-at="2024-11-26T09:48:17 IST" name="configBeforeClass" finished-at="2024-11-26T09:48:20 IST" duration-ms="2621" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeClass -->
+        <test-method is-config="true" signature="configBeforeMethod(java.lang.String,java.lang.String)[pri:0, instance:com.accountsTest.AddUserAccountTest@5bda8e08]" started-at="2024-11-26T09:48:20 IST" name="configBeforeMethod" finished-at="2024-11-26T09:48:24 IST" duration-ms="4301" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeMethod -->
+        <test-method signature="addUserAccount()[pri:0, instance:com.accountsTest.AddUserAccountTest@5bda8e08]" started-at="2024-11-26T09:48:24 IST" name="addUserAccount" finished-at="2024-11-26T09:48:31 IST" duration-ms="6631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addUserAccount -->
+        <test-method is-config="true" signature="configAfterMethod()[pri:0, instance:com.accountsTest.AddUserAccountTest@5bda8e08]" started-at="2024-11-26T09:48:31 IST" name="configAfterMethod" finished-at="2024-11-26T09:48:32 IST" duration-ms="590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterMethod -->
+        <test-method is-config="true" signature="configAfterClass()[pri:0, instance:com.accountsTest.AddUserAccountTest@5bda8e08]" started-at="2024-11-26T09:48:32 IST" name="configAfterClass" finished-at="2024-11-26T09:48:32 IST" duration-ms="340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterClass -->
+      </class> <!-- com.accountsTest.AddUserAccountTest -->
+      <class name="com.pointOfSaleTest.SubmitProductsTest">
+        <test-method is-config="true" signature="configBeforeClass(java.lang.String)[pri:0, instance:com.pointOfSaleTest.SubmitProductsTest@229f66ed]" started-at="2024-11-26T09:47:32 IST" name="configBeforeClass" finished-at="2024-11-26T09:47:36 IST" duration-ms="4159" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeClass -->
+        <test-method is-config="true" signature="configBeforeMethod(java.lang.String,java.lang.String)[pri:0, instance:com.pointOfSaleTest.SubmitProductsTest@229f66ed]" started-at="2024-11-26T09:47:36 IST" name="configBeforeMethod" finished-at="2024-11-26T09:47:41 IST" duration-ms="4954" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeMethod -->
+        <test-method signature="submitProductsTest()[pri:0, instance:com.pointOfSaleTest.SubmitProductsTest@229f66ed]" started-at="2024-11-26T09:47:41 IST" name="submitProductsTest" finished-at="2024-11-26T09:47:54 IST" duration-ms="13160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitProductsTest -->
+        <test-method is-config="true" signature="configAfterMethod()[pri:0, instance:com.pointOfSaleTest.SubmitProductsTest@229f66ed]" started-at="2024-11-26T09:47:54 IST" name="configAfterMethod" finished-at="2024-11-26T09:47:58 IST" duration-ms="3788" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterMethod -->
+        <test-method is-config="true" signature="configAfterClass()[pri:0, instance:com.pointOfSaleTest.SubmitProductsTest@229f66ed]" started-at="2024-11-26T09:47:58 IST" name="configAfterClass" finished-at="2024-11-26T09:47:58 IST" duration-ms="573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterClass -->
+      </class> <!-- com.pointOfSaleTest.SubmitProductsTest -->
+    </test> <!-- Test_1 -->
+    <test started-at="2024-11-26T09:47:32 IST" name="Test_2" finished-at="2024-11-26T09:48:58 IST" duration-ms="85918">
+      <class name="com.productTest.AddProductTest">
+        <test-method is-config="true" signature="configBeforeSuite()[pri:0, instance:com.productTest.AddProductTest@7d20d0b]" started-at="2024-11-26T09:47:31 IST" name="configBeforeSuite" finished-at="2024-11-26T09:47:32 IST" duration-ms="921" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeSuite -->
+        <test-method is-config="true" signature="configBeforeClass(java.lang.String)[pri:0, instance:com.productTest.AddProductTest@7d20d0b]" started-at="2024-11-26T09:47:32 IST" name="configBeforeClass" finished-at="2024-11-26T09:47:36 IST" duration-ms="4160" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeClass -->
+        <test-method is-config="true" signature="configBeforeMethod(java.lang.String,java.lang.String)[pri:0, instance:com.productTest.AddProductTest@7d20d0b]" started-at="2024-11-26T09:47:36 IST" name="configBeforeMethod" finished-at="2024-11-26T09:47:42 IST" duration-ms="5674" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeMethod -->
+        <test-method signature="addProductAndVerifyInEditTest()[pri:0, instance:com.productTest.AddProductTest@7d20d0b]" started-at="2024-11-26T09:47:42 IST" name="addProductAndVerifyInEditTest" finished-at="2024-11-26T09:47:59 IST" duration-ms="17728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductAndVerifyInEditTest -->
+        <test-method is-config="true" signature="configAfterMethod()[pri:0, instance:com.productTest.AddProductTest@7d20d0b]" started-at="2024-11-26T09:47:59 IST" name="configAfterMethod" finished-at="2024-11-26T09:48:00 IST" duration-ms="950" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterMethod -->
+        <test-method is-config="true" signature="configBeforeMethod(java.lang.String,java.lang.String)[pri:0, instance:com.productTest.AddProductTest@7d20d0b]" started-at="2024-11-26T09:48:00 IST" name="configBeforeMethod" finished-at="2024-11-26T09:48:42 IST" duration-ms="42041" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"[name='user']"}
+  (Session info: chrome=131.0.6778.86)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [664d3946890536c6ab0812b81b987ddd, findElement {using=css selector, value=[name='user']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\Rajani\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52823}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52823/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 664d3946890536c6ab0812b81b987ddd]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"[name='user']"}
+  (Session info: chrome=131.0.6778.86)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [664d3946890536c6ab0812b81b987ddd, findElement {using=css selector, value=[name='user']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\Rajani\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52823}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52823/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 664d3946890536c6ab0812b81b987ddd
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy20.sendKeys(Unknown Source)
+at com.objectRepository.LoginPage.loginToApp(LoginPage.java:49)
+at com.baseTest.BaseClass.configBeforeMethod(BaseClass.java:82)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeMethod -->
+        <test-method signature="addProductTest()[pri:0, instance:com.productTest.AddProductTest@7d20d0b]" started-at="2024-11-26T09:48:42 IST" name="addProductTest" finished-at="2024-11-26T09:48:42 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"[name='user']"}
+  (Session info: chrome=131.0.6778.86)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [664d3946890536c6ab0812b81b987ddd, findElement {using=css selector, value=[name='user']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\Rajani\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52823}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52823/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 664d3946890536c6ab0812b81b987ddd]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"[name='user']"}
+  (Session info: chrome=131.0.6778.86)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [664d3946890536c6ab0812b81b987ddd, findElement {using=css selector, value=[name='user']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\Rajani\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52823}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52823/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 664d3946890536c6ab0812b81b987ddd
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy20.sendKeys(Unknown Source)
+at com.objectRepository.LoginPage.loginToApp(LoginPage.java:49)
+at com.baseTest.BaseClass.configBeforeMethod(BaseClass.java:82)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductTest -->
+        <test-method is-config="true" signature="configAfterMethod()[pri:0, instance:com.productTest.AddProductTest@7d20d0b]" started-at="2024-11-26T09:48:42 IST" name="configAfterMethod" finished-at="2024-11-26T09:48:42 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterMethod -->
+        <test-method is-config="true" signature="configAfterClass()[pri:0, instance:com.productTest.AddProductTest@7d20d0b]" started-at="2024-11-26T09:48:42 IST" name="configAfterClass" finished-at="2024-11-26T09:48:42 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterClass -->
+        <test-method is-config="true" signature="configAfterSuite()[pri:0, instance:com.productTest.AddProductTest@7d20d0b]" started-at="2024-11-26T09:48:58 IST" name="configAfterSuite" finished-at="2024-11-26T09:48:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterSuite -->
+      </class> <!-- com.productTest.AddProductTest -->
+      <class name="com.employeeTest.EditEmployeeTest">
+        <test-method is-config="true" signature="configBeforeClass(java.lang.String)[pri:0, instance:com.employeeTest.EditEmployeeTest@77f1baf5]" started-at="2024-11-26T09:48:42 IST" name="configBeforeClass" finished-at="2024-11-26T09:48:44 IST" duration-ms="2064" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeClass -->
+        <test-method is-config="true" signature="configBeforeMethod(java.lang.String,java.lang.String)[pri:0, instance:com.employeeTest.EditEmployeeTest@77f1baf5]" started-at="2024-11-26T09:48:44 IST" name="configBeforeMethod" finished-at="2024-11-26T09:48:48 IST" duration-ms="3912" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeMethod -->
+        <test-method signature="editEmployeeContact()[pri:0, instance:com.employeeTest.EditEmployeeTest@77f1baf5]" started-at="2024-11-26T09:48:48 IST" name="editEmployeeContact" finished-at="2024-11-26T09:48:56 IST" duration-ms="7682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editEmployeeContact -->
+        <test-method is-config="true" signature="configAfterMethod()[pri:0, instance:com.employeeTest.EditEmployeeTest@77f1baf5]" started-at="2024-11-26T09:48:56 IST" name="configAfterMethod" finished-at="2024-11-26T09:48:57 IST" duration-ms="728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterMethod -->
+        <test-method is-config="true" signature="configAfterClass()[pri:0, instance:com.employeeTest.EditEmployeeTest@77f1baf5]" started-at="2024-11-26T09:48:57 IST" name="configAfterClass" finished-at="2024-11-26T09:48:58 IST" duration-ms="860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterClass -->
+      </class> <!-- com.employeeTest.EditEmployeeTest -->
+    </test> <!-- Test_2 -->
+  </suite> <!-- Suite -->
+</testng-results>
