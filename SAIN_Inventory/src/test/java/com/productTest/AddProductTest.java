@@ -14,7 +14,7 @@ import com.objectRepository.ProductPage;
 
 public class AddProductTest extends BaseClass {
 
-	@Test
+	@Test(groups = {"SmokeTest","RegressionTest"})
 	public void addProductTest() throws Throwable {
 
 		UtilityClassObject.getTest().log(Status.INFO,"fetching data from excel");
@@ -54,7 +54,7 @@ public class AddProductTest extends BaseClass {
 		Assert.assertEquals(category, P_CATEGORY);
 	}
 
-	@Test
+	@Test(groups = {"RegressionTest"})
 	public void addProductAndVerifyInEditTest() throws Throwable {
 
 		UtilityClassObject.getTest().log(Status.INFO,"fetching data from the excel file");

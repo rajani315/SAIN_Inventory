@@ -13,7 +13,7 @@ import com.objectRepository.HomePage;
 
 public class EditEmployeeTest extends BaseClass{
 	
-	@Test
+	@Test(groups = {"RegressionTest"})
 	public void editEmployeeContact() throws Throwable {
 		
 		UtilityClassObject.getTest().log(Status.INFO,"Fetching data from excel");

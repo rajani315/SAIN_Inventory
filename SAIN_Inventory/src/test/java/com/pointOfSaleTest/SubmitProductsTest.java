@@ -13,7 +13,7 @@ import com.objectRepository.PointOfSalePage;
 
 public class SubmitProductsTest extends BaseClass {
 
-	@Test
+	@Test(groups = {"SmokeTest","RegressionTest"})
 	public void submitProductsTest() throws Throwable {
 
 		UtilityClassObject.getTest().log(Status.INFO, "Fetching data from excel");

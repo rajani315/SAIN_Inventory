@@ -12,7 +12,7 @@ import com.objectRepository.InventoryPage;
 
 public class SearchProductTest extends BaseClass {
 
-	@Test(groups = { "SmokeTest", "RegressionTest"})
+	@Test(groups = {"RegressionTest"})
 	public void searchProductByCode() throws Throwable {
 
 		UtilityClassObject.getTest().log(Status.INFO,"Fetching data from excel");

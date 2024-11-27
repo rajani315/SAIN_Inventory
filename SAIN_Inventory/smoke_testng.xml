@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<groups>
+		<run>
+			<include name="SmokeTest" />
+		</run>
+	</groups>
+	<listeners>
+		<listener class-name="com.generic.listenerUtility.ListenerImpClass"></listener>
+	</listeners>
+
+	<test thread-count="5" name="Test">
+		<parameter name="username" value="admin" />
+		<parameter name="password" value="admin" />
+		<classes>
+			<class name="com.pointOfSaleTest.SubmitProductsTest" />
+			<class name="com.inventoryTest.SearchProductTest" />
+			<class name="com.accountsTest.AddUserAccountTest" />
+			<class name="com.productTest.AddProductTest" />
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->

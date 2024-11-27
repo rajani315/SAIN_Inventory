@@ -1,24 +1,110 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="8" total="14" passed="6" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[report configuration]]>
+    </line>
+    <line>
+      <![CDATA[---Connected to Database---]]>
+    </line>
+    <line>
+      <![CDATA[---Chrome Browser Launched---]]>
+    </line>
+    <line>
+      <![CDATA[---Logged-in to App---]]>
+    </line>
+    <line>
+      <![CDATA[---Logged-out from App---]]>
+    </line>
+    <line>
+      <![CDATA[---Browser Closed---]]>
+    </line>
+    <line>
+      <![CDATA[---Chrome Browser Launched---]]>
+    </line>
+    <line>
+      <![CDATA[---Logged-in to App---]]>
+    </line>
+    <line>
+      <![CDATA[---Logged-out from App---]]>
+    </line>
+    <line>
+      <![CDATA[---Browser Closed---]]>
+    </line>
+    <line>
+      <![CDATA[---Chrome Browser Launched---]]>
+    </line>
+    <line>
+      <![CDATA[---Logged-in to App---]]>
+    </line>
+    <line>
+      <![CDATA[---Logged-out from App---]]>
+    </line>
+    <line>
+      <![CDATA[---Browser Closed---]]>
+    </line>
+    <line>
+      <![CDATA[---Chrome Browser Launched---]]>
+    </line>
+    <line>
+      <![CDATA[---Logged-in to App---]]>
+    </line>
+    <line>
+      <![CDATA[---Logged-out from App---]]>
+    </line>
+    <line>
+      <![CDATA[---Logged-in to App---]]>
+    </line>
+    <line>
+      <![CDATA[---Logged-out from App---]]>
+    </line>
+    <line>
+      <![CDATA[---Browser Closed---]]>
+    </line>
+    <line>
+      <![CDATA[---Chrome Browser Launched---]]>
+    </line>
+    <line>
+      <![CDATA[---Logged-in to App---]]>
+    </line>
+    <line>
+      <![CDATA[---Logged-out from App---]]>
+    </line>
+    <line>
+      <![CDATA[---Browser Closed---]]>
+    </line>
+    <line>
+      <![CDATA[---Closed Database Connection---]]>
+    </line>
   </reporter-output>
-  <suite started-at="2024-11-26T10:35:12 IST" name="Suite" finished-at="2024-11-26T10:36:00 IST" duration-ms="47825">
+  <suite started-at="2024-11-26T11:18:17 IST" name="Suite" finished-at="2024-11-26T11:19:56 IST" duration-ms="98850">
     <groups>
+      <group name="SmokeTest">
+        <method signature="AddUserAccountTest.addUserAccount()[pri:0, instance:com.accountsTest.AddUserAccountTest@4c583ecf]" name="addUserAccount" class="com.accountsTest.AddUserAccountTest"/>
+        <method signature="SearchProductTest.searchProductByCode()[pri:0, instance:com.inventoryTest.SearchProductTest@34a3d150]" name="searchProductByCode" class="com.inventoryTest.SearchProductTest"/>
+      </group> <!-- SmokeTest -->
+      <group name="RegressionTest">
+        <method signature="AddUserAccountTest.addUserAccount()[pri:0, instance:com.accountsTest.AddUserAccountTest@4c583ecf]" name="addUserAccount" class="com.accountsTest.AddUserAccountTest"/>
+        <method signature="SearchProductTest.searchProductByCode()[pri:0, instance:com.inventoryTest.SearchProductTest@34a3d150]" name="searchProductByCode" class="com.inventoryTest.SearchProductTest"/>
+      </group> <!-- RegressionTest -->
     </groups>
-    <test started-at="2024-11-26T10:35:12 IST" name="Test_chrome" finished-at="2024-11-26T10:35:59 IST" duration-ms="47403">
-      <class name="com.pointOfSaleTest.SubmitProductsTest">
-        <test-method is-config="true" signature="configBeforeClass(java.lang.String)[pri:0, instance:com.pointOfSaleTest.SubmitProductsTest@4c371370]" started-at="2024-11-26T10:35:12 IST" name="configBeforeClass" finished-at="2024-11-26T10:35:23 IST" duration-ms="11505" status="PASS">
+    <test started-at="2024-11-26T11:18:17 IST" name="Test" finished-at="2024-11-26T11:19:56 IST" duration-ms="98850">
+      <class name="com.productTest.AddProductTest">
+        <test-method is-config="true" signature="configBeforeClass(java.lang.String)[pri:0, instance:com.productTest.AddProductTest@692f203f]" started-at="2024-11-26T11:19:08 IST" name="configBeforeClass" finished-at="2024-11-26T11:19:10 IST" duration-ms="2425" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[Chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[---Chrome Browser Launched---]]>
+            </line>
           </reporter-output>
         </test-method> <!-- configBeforeClass -->
-        <test-method is-config="true" signature="configBeforeMethod(java.lang.String,java.lang.String)[pri:0, instance:com.pointOfSaleTest.SubmitProductsTest@4c371370]" started-at="2024-11-26T10:35:23 IST" name="configBeforeMethod" finished-at="2024-11-26T10:35:33 IST" duration-ms="9715" status="PASS">
+        <test-method is-config="true" signature="configBeforeMethod(java.lang.String,java.lang.String)[pri:0, instance:com.productTest.AddProductTest@692f203f]" started-at="2024-11-26T11:19:10 IST" name="configBeforeMethod" finished-at="2024-11-26T11:19:15 IST" duration-ms="4772" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -32,40 +118,83 @@
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[---Logged-in to App---]]>
+            </line>
           </reporter-output>
         </test-method> <!-- configBeforeMethod -->
-        <test-method signature="submitProductsTest()[pri:0, instance:com.pointOfSaleTest.SubmitProductsTest@4c371370]" started-at="2024-11-26T10:35:33 IST" name="submitProductsTest" finished-at="2024-11-26T10:35:53 IST" duration-ms="20433" status="PASS">
+        <test-method signature="addProductAndVerifyInEditTest()[pri:0, instance:com.productTest.AddProductTest@692f203f]" started-at="2024-11-26T11:19:15 IST" name="addProductAndVerifyInEditTest" finished-at="2024-11-26T11:19:26 IST" duration-ms="10398" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- submitProductsTest -->
-        <test-method is-config="true" signature="configAfterMethod()[pri:0, instance:com.pointOfSaleTest.SubmitProductsTest@4c371370]" started-at="2024-11-26T10:35:54 IST" name="configAfterMethod" finished-at="2024-11-26T10:35:55 IST" duration-ms="1804" status="PASS">
+        </test-method> <!-- addProductAndVerifyInEditTest -->
+        <test-method is-config="true" signature="configAfterMethod()[pri:0, instance:com.productTest.AddProductTest@692f203f]" started-at="2024-11-26T11:19:26 IST" name="configAfterMethod" finished-at="2024-11-26T11:19:26 IST" duration-ms="883" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[---Logged-out from App---]]>
+            </line>
           </reporter-output>
         </test-method> <!-- configAfterMethod -->
-        <test-method is-config="true" signature="configAfterClass()[pri:0, instance:com.pointOfSaleTest.SubmitProductsTest@4c371370]" started-at="2024-11-26T10:35:55 IST" name="configAfterClass" finished-at="2024-11-26T10:35:59 IST" duration-ms="3882" status="PASS">
+        <test-method is-config="true" signature="configBeforeMethod(java.lang.String,java.lang.String)[pri:0, instance:com.productTest.AddProductTest@692f203f]" started-at="2024-11-26T11:19:26 IST" name="configBeforeMethod" finished-at="2024-11-26T11:19:30 IST" duration-ms="3150" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[---Logged-in to App---]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBeforeMethod -->
+        <test-method signature="addProductTest()[pri:0, instance:com.productTest.AddProductTest@692f203f]" started-at="2024-11-26T11:19:30 IST" name="addProductTest" finished-at="2024-11-26T11:19:38 IST" duration-ms="8811" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- configAfterClass -->
-      </class> <!-- com.pointOfSaleTest.SubmitProductsTest -->
-    </test> <!-- Test_chrome -->
-    <test started-at="2024-11-26T10:35:12 IST" name="Test-edge" finished-at="2024-11-26T10:36:00 IST" duration-ms="47825">
-      <class name="com.pointOfSaleTest.SubmitProductsTest">
-        <test-method is-config="true" signature="configBeforeSuite()[pri:0, instance:com.pointOfSaleTest.SubmitProductsTest@62379589]" started-at="2024-11-26T10:35:10 IST" name="configBeforeSuite" finished-at="2024-11-26T10:35:12 IST" duration-ms="1326" status="PASS">
+        </test-method> <!-- addProductTest -->
+        <test-method is-config="true" signature="configAfterMethod()[pri:0, instance:com.productTest.AddProductTest@692f203f]" started-at="2024-11-26T11:19:38 IST" name="configAfterMethod" finished-at="2024-11-26T11:19:39 IST" duration-ms="789" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[---Logged-out from App---]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAfterMethod -->
+        <test-method is-config="true" signature="configAfterClass()[pri:0, instance:com.productTest.AddProductTest@692f203f]" started-at="2024-11-26T11:19:39 IST" name="configAfterClass" finished-at="2024-11-26T11:19:40 IST" duration-ms="710" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[---Browser Closed---]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAfterClass -->
+      </class> <!-- com.productTest.AddProductTest -->
+      <class name="com.inventoryTest.SearchProductTest">
+        <test-method is-config="true" signature="configBeforeSuite()[pri:0, instance:com.inventoryTest.SearchProductTest@34a3d150]" started-at="2024-11-26T11:18:16 IST" name="configBeforeSuite" finished-at="2024-11-26T11:18:17 IST" duration-ms="1223" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[---Connected to Database---]]>
+            </line>
           </reporter-output>
         </test-method> <!-- configBeforeSuite -->
-        <test-method is-config="true" signature="configBeforeClass(java.lang.String)[pri:0, instance:com.pointOfSaleTest.SubmitProductsTest@62379589]" started-at="2024-11-26T10:35:12 IST" name="configBeforeClass" finished-at="2024-11-26T10:35:18 IST" duration-ms="6525" status="PASS">
+        <test-method is-config="true" signature="configBeforeClass(java.lang.String)[pri:0, instance:com.inventoryTest.SearchProductTest@34a3d150]" started-at="2024-11-26T11:18:17 IST" name="configBeforeClass" finished-at="2024-11-26T11:18:22 IST" duration-ms="4961" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[edge]]>
+                <![CDATA[Chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[---Chrome Browser Launched---]]>
+            </line>
           </reporter-output>
         </test-method> <!-- configBeforeClass -->
-        <test-method is-config="true" signature="configBeforeMethod(java.lang.String,java.lang.String)[pri:0, instance:com.pointOfSaleTest.SubmitProductsTest@62379589]" started-at="2024-11-26T10:35:18 IST" name="configBeforeMethod" finished-at="2024-11-26T10:35:32 IST" duration-ms="13700" status="PASS">
+        <test-method is-config="true" signature="configBeforeMethod(java.lang.String,java.lang.String)[pri:0, instance:com.inventoryTest.SearchProductTest@34a3d150]" started-at="2024-11-26T11:18:22 IST" name="configBeforeMethod" finished-at="2024-11-26T11:18:27 IST" duration-ms="4346" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -79,25 +208,196 @@
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[---Logged-in to App---]]>
+            </line>
           </reporter-output>
         </test-method> <!-- configBeforeMethod -->
-        <test-method signature="submitProductsTest()[pri:0, instance:com.pointOfSaleTest.SubmitProductsTest@62379589]" started-at="2024-11-26T10:35:32 IST" name="submitProductsTest" finished-at="2024-11-26T10:35:56 IST" duration-ms="23765" status="PASS">
+        <test-method signature="searchProductByCode()[pri:0, instance:com.inventoryTest.SearchProductTest@34a3d150]" started-at="2024-11-26T11:18:27 IST" name="searchProductByCode" finished-at="2024-11-26T11:18:29 IST" duration-ms="2694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductByCode -->
+        <test-method is-config="true" signature="configAfterMethod()[pri:0, instance:com.inventoryTest.SearchProductTest@34a3d150]" started-at="2024-11-26T11:18:29 IST" name="configAfterMethod" finished-at="2024-11-26T11:18:31 IST" duration-ms="1467" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[---Logged-out from App---]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAfterMethod -->
+        <test-method is-config="true" signature="configAfterClass()[pri:0, instance:com.inventoryTest.SearchProductTest@34a3d150]" started-at="2024-11-26T11:18:31 IST" name="configAfterClass" finished-at="2024-11-26T11:18:32 IST" duration-ms="655" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[---Browser Closed---]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAfterClass -->
+        <test-method is-config="true" signature="configAfterSuite()[pri:0, instance:com.inventoryTest.SearchProductTest@34a3d150]" started-at="2024-11-26T11:19:56 IST" name="configAfterSuite" finished-at="2024-11-26T11:19:56 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[---Closed Database Connection---]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAfterSuite -->
+      </class> <!-- com.inventoryTest.SearchProductTest -->
+      <class name="com.pointOfSaleTest.SubmitProductsTest">
+        <test-method is-config="true" signature="configBeforeClass(java.lang.String)[pri:0, instance:com.pointOfSaleTest.SubmitProductsTest@368f2016]" started-at="2024-11-26T11:18:32 IST" name="configBeforeClass" finished-at="2024-11-26T11:18:35 IST" duration-ms="2917" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[---Chrome Browser Launched---]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBeforeClass -->
+        <test-method is-config="true" signature="configBeforeMethod(java.lang.String,java.lang.String)[pri:0, instance:com.pointOfSaleTest.SubmitProductsTest@368f2016]" started-at="2024-11-26T11:18:35 IST" name="configBeforeMethod" finished-at="2024-11-26T11:18:39 IST" duration-ms="4361" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[---Logged-in to App---]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBeforeMethod -->
+        <test-method signature="submitProductsTest()[pri:0, instance:com.pointOfSaleTest.SubmitProductsTest@368f2016]" started-at="2024-11-26T11:18:39 IST" name="submitProductsTest" finished-at="2024-11-26T11:18:47 IST" duration-ms="7863" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- submitProductsTest -->
-        <test-method is-config="true" signature="configAfterMethod()[pri:0, instance:com.pointOfSaleTest.SubmitProductsTest@62379589]" started-at="2024-11-26T10:35:56 IST" name="configAfterMethod" finished-at="2024-11-26T10:35:57 IST" duration-ms="1523" status="PASS">
+        <test-method is-config="true" signature="configAfterMethod()[pri:0, instance:com.pointOfSaleTest.SubmitProductsTest@368f2016]" started-at="2024-11-26T11:18:47 IST" name="configAfterMethod" finished-at="2024-11-26T11:18:48 IST" duration-ms="1137" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[---Logged-out from App---]]>
+            </line>
           </reporter-output>
         </test-method> <!-- configAfterMethod -->
-        <test-method is-config="true" signature="configAfterClass()[pri:0, instance:com.pointOfSaleTest.SubmitProductsTest@62379589]" started-at="2024-11-26T10:35:57 IST" name="configAfterClass" finished-at="2024-11-26T10:36:00 IST" duration-ms="2205" status="PASS">
+        <test-method is-config="true" signature="configAfterClass()[pri:0, instance:com.pointOfSaleTest.SubmitProductsTest@368f2016]" started-at="2024-11-26T11:18:48 IST" name="configAfterClass" finished-at="2024-11-26T11:18:50 IST" duration-ms="2577" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[---Browser Closed---]]>
+            </line>
           </reporter-output>
         </test-method> <!-- configAfterClass -->
-        <test-method is-config="true" signature="configAfterSuite()[pri:0, instance:com.pointOfSaleTest.SubmitProductsTest@62379589]" started-at="2024-11-26T10:36:00 IST" name="configAfterSuite" finished-at="2024-11-26T10:36:00 IST" duration-ms="0" status="PASS">
+      </class> <!-- com.pointOfSaleTest.SubmitProductsTest -->
+      <class name="com.accountsTest.AddUserAccountTest">
+        <test-method is-config="true" signature="configBeforeClass(java.lang.String)[pri:0, instance:com.accountsTest.AddUserAccountTest@4c583ecf]" started-at="2024-11-26T11:18:50 IST" name="configBeforeClass" finished-at="2024-11-26T11:18:53 IST" duration-ms="2884" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[---Chrome Browser Launched---]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBeforeClass -->
+        <test-method is-config="true" signature="configBeforeMethod(java.lang.String,java.lang.String)[pri:0, instance:com.accountsTest.AddUserAccountTest@4c583ecf]" started-at="2024-11-26T11:18:53 IST" name="configBeforeMethod" finished-at="2024-11-26T11:18:58 IST" duration-ms="4504" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[---Logged-in to App---]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBeforeMethod -->
+        <test-method signature="addUserAccount()[pri:0, instance:com.accountsTest.AddUserAccountTest@4c583ecf]" started-at="2024-11-26T11:18:58 IST" name="addUserAccount" finished-at="2024-11-26T11:19:05 IST" duration-ms="7382" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- configAfterSuite -->
-      </class> <!-- com.pointOfSaleTest.SubmitProductsTest -->
-    </test> <!-- Test-edge -->
+        </test-method> <!-- addUserAccount -->
+        <test-method is-config="true" signature="configAfterMethod()[pri:0, instance:com.accountsTest.AddUserAccountTest@4c583ecf]" started-at="2024-11-26T11:19:05 IST" name="configAfterMethod" finished-at="2024-11-26T11:19:07 IST" duration-ms="1945" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[---Logged-out from App---]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAfterMethod -->
+        <test-method is-config="true" signature="configAfterClass()[pri:0, instance:com.accountsTest.AddUserAccountTest@4c583ecf]" started-at="2024-11-26T11:19:07 IST" name="configAfterClass" finished-at="2024-11-26T11:19:08 IST" duration-ms="783" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[---Browser Closed---]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAfterClass -->
+      </class> <!-- com.accountsTest.AddUserAccountTest -->
+      <class name="com.employeeTest.EditEmployeeTest">
+        <test-method is-config="true" signature="configBeforeClass(java.lang.String)[pri:0, instance:com.employeeTest.EditEmployeeTest@48f2bd5b]" started-at="2024-11-26T11:19:40 IST" name="configBeforeClass" finished-at="2024-11-26T11:19:43 IST" duration-ms="2590" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[---Chrome Browser Launched---]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBeforeClass -->
+        <test-method is-config="true" signature="configBeforeMethod(java.lang.String,java.lang.String)[pri:0, instance:com.employeeTest.EditEmployeeTest@48f2bd5b]" started-at="2024-11-26T11:19:43 IST" name="configBeforeMethod" finished-at="2024-11-26T11:19:47 IST" duration-ms="4551" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[---Logged-in to App---]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBeforeMethod -->
+        <test-method signature="editEmployeeContact()[pri:0, instance:com.employeeTest.EditEmployeeTest@48f2bd5b]" started-at="2024-11-26T11:19:47 IST" name="editEmployeeContact" finished-at="2024-11-26T11:19:55 IST" duration-ms="7438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editEmployeeContact -->
+        <test-method is-config="true" signature="configAfterMethod()[pri:0, instance:com.employeeTest.EditEmployeeTest@48f2bd5b]" started-at="2024-11-26T11:19:55 IST" name="configAfterMethod" finished-at="2024-11-26T11:19:56 IST" duration-ms="1078" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[---Logged-out from App---]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAfterMethod -->
+        <test-method is-config="true" signature="configAfterClass()[pri:0, instance:com.employeeTest.EditEmployeeTest@48f2bd5b]" started-at="2024-11-26T11:19:56 IST" name="configAfterClass" finished-at="2024-11-26T11:19:56 IST" duration-ms="637" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[---Browser Closed---]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAfterClass -->
+      </class> <!-- com.employeeTest.EditEmployeeTest -->
+    </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

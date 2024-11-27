@@ -8,6 +8,41 @@
 
 	<profiles>
 		<profile>
+			<id>SmokeTest</id>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-surefire-plugin</artifactId>
+						<version>3.5.2</version>
+						<configuration>
+							<suiteXmlFiles>
+								<suiteXmlFile>smoke_testng.xml</suiteXmlFile>
+							</suiteXmlFiles>
+						</configuration>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+		<profile>
+			<id>RegressionTest</id>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-surefire-plugin</artifactId>
+						<version>3.5.2</version>
+						<configuration>
+							<suiteXmlFiles>
+								<suiteXmlFile>regression_testng.xml</suiteXmlFile>
+							</suiteXmlFiles>
+						</configuration>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+
+		<profile>
 			<id>admin_test</id>
 			<build>
 				<plugins>

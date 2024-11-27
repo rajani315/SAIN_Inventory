@@ -11,7 +11,7 @@ import com.objectRepository.HomePage;
 
 public class EditProfileTest extends BaseClass {
 
-	@Test
+	@Test(groups = {"RegressionTest"})
 	public void editProfileContact() throws Throwable {
 
 		UtilityClassObject.getTest().log(Status.INFO,"Fetching data from excel");
